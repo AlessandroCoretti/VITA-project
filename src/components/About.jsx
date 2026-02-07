@@ -50,7 +50,7 @@ export default function About() {
 
       {/* Editorial Text */}
       <div className="w-full md:w-1/2 flex flex-col justify-center z-10 md:pr-12 mb-12 md:mb-0">
-        <h2 className="about-title font-serif text-5xl md:text-7xl mb-8 leading-tight text-primary">
+        <h2 className="about-title font-serif text-4xl md:text-7xl mb-8 leading-tight text-primary">
           {t('intro.title')}
         </h2>
         <div className="font-sans text-secondary text-lg leading-relaxed max-w-md space-y-6">

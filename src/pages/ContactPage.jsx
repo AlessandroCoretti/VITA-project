@@ -27,7 +27,7 @@ const ContactPage = () => {
             <div ref={container} className="bg-paper min-h-screen text-primary flex flex-col items-center justify-center pt-32 pb-20 px-6">
 
                 <div className="max-w-4xl w-full text-center">
-                    <h1 className="contact-page-item font-serif text-6xl md:text-8xl mb-8">{t('contact.title')}</h1>
+                    <h1 className="contact-page-item font-serif text-4xl md:text-8xl mb-8">{t('contact.title')}</h1>
                     <p className="contact-page-item text-secondary text-lg font-light max-w-2xl mx-auto mb-16 leading-relaxed">
                         {t('contact.desc')}
                     </p>

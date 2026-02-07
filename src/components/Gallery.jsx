@@ -53,8 +53,8 @@ export default function Gallery() {
 
     return (
         <div ref={triggerRef} className="overflow-hidden bg-paper">
-            <div className="absolute top-40 md:top-10 left-6 md:left-10 z-10 pointer-events-none">
-                <h3 className="gallery-title font-serif text-2xl text-primary tracking-[0.3em] uppercase opacity-70">
+            <div className="absolute top-24 md:top-10 left-6 md:left-10 z-10 pointer-events-none">
+                <h3 className="gallery-title font-serif text-xl md:text-2xl text-primary tracking-[0.3em] uppercase opacity-70">
                     {t('gallery.title')}
                 </h3>
             </div>

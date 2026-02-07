@@ -33,7 +33,7 @@ export default function Products() {
     return (
         <section ref={container} className="py-32 px-6 bg-cream">
             <div className="max-w-7xl mx-auto mb-20 text-center">
-                <h2 className="font-serif text-5xl text-primary mb-4">{t('products.title')}</h2>
+                <h2 className="font-serif text-4xl md:text-5xl text-primary mb-4">{t('products.title')}</h2>
                 <p className="font-sans text-secondary tracking-wider uppercase text-sm">{t('products.subtitle')}</p>
             </div>
 

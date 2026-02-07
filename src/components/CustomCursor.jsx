@@ -6,6 +6,10 @@ const CustomCursor = () => {
     const cursorRef = useRef(null);
 
     useGSAP(() => {
+        // Only activate on desktop/fine pointer devices
+        const isDesktop = window.matchMedia("(min-width: 768px)").matches && window.matchMedia("(pointer: fine)").matches;
+        if (!isDesktop) return;
+
         document.body.style.cursor = 'none';
 
         const xTo = gsap.quickTo(cursorRef.current, "x", { duration: 0.1, ease: "power3.out" });
@@ -38,7 +42,7 @@ const CustomCursor = () => {
     return (
         <div
             ref={cursorRef}
-            className="fixed top-0 left-0 w-3 h-3 bg-[#C19A6B] rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 mix-blend-difference"
+            className="hidden md:block fixed top-0 left-0 w-3 h-3 bg-[#C19A6B] rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 mix-blend-difference"
         />
     );
 };

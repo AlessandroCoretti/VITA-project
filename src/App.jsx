@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
+import ScrollToTop from './components/ScrollToTop';
 import Hero from './components/Hero';
 import About from './components/About';
 import Gallery from './components/Gallery';
@@ -44,6 +45,7 @@ function App() {
   return (
     <ReactLenis root>
       <Router>
+        <ScrollToTop />
         <CustomCursor />
         <Navbar />
         <AnimatedRoutes />

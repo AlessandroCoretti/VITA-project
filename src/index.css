@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-paper: var(--paper);
+  --color-cream: var(--cream);
+}
+
+:root {
+  /* Light Mode (Default) */
+  --primary: #0C1E30;
+  --secondary: #444444;
+  --accent: #C19A6B;
+  --paper: #ffffff;
+  --cream: #f4f4f4;
+}
+
+:root.dark-mode {
+  /* Dark Mode */
+  --primary: #ffffff;
+  --secondary: #cccccc;
+  --accent: #C19A6B;
+  --paper: #0C1E30;
+  --cream: #152a3f;
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-primary font-sans antialiased text-lg leading-relaxed;
+    /* Increased base size & leading */
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif tracking-wide text-primary font-medium;
+  }
+
+  p {
+    @apply text-secondary font-normal;
+    /* Increased weight */
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-32 md:py-48 px-6 md:px-24;
+  }
+
+  .nav-scrolled {
+    @apply transition-all duration-500;
+  }
+
+  /* Animation Utility Classes */
+  .reveal-wrapper {
+    @apply overflow-hidden;
+  }
+
+  .reveal-line {
+    @apply translate-y-full opacity-0 block;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}

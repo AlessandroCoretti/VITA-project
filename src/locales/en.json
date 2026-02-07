@@ -1,0 +1,64 @@
+{
+    "nav": {
+        "home": "Home",
+        "menu": "Menu",
+        "events": "Events",
+        "contact": "Contact",
+        "book": "Book Table"
+    },
+    "hero": {
+        "title": "VITA",
+        "subtitle": "Drink, Eat, Share.",
+        "cta": "Discover More"
+    },
+    "intro": {
+        "title": "A Space for Life",
+        "p1": "VITA is not just a place, it is a moment. From the calm of the morning with the scent of artisanal coffee, to the energy of the evening with selected glasses of wine.",
+        "p2": "Every detail, from the wood furnishings to the care of the service, is designed to make you feel at home, but with an extra touch of elegance."
+    },
+    "products": {
+        "title": "Our Selection",
+        "subtitle": "Take a piece of VITA home",
+        "p1_name": "Small Pastry",
+        "p1_cat": "Sweets",
+        "p2_name": "Reserve Red",
+        "p2_cat": "Cellar"
+    },
+    "gallery": {
+        "title": "Atmosphere",
+        "end": "Find your place."
+    },
+    "social": {
+        "title": "Follow the Vibe",
+        "handle": "@VITALocale",
+        "bio": "VITA - Eat, Drink, Share. \n📍 Bracciano, Via Principe di Napoli, 7\n🍷 Wine | ☕ Coffee | 🌿 Vibe",
+        "followers": "4.2k",
+        "following": "85",
+        "posts": "124"
+    },
+    "contact": {
+        "title": "Ready to Taste?",
+        "desc": "Let yourself be wrapped in the atmosphere. Come feel at home.",
+        "cta": "Book Your Table",
+        "call": "Or call us at +39 06 6922 7268",
+        "location": "Location",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "reviews": {
+        "title": "What They Say",
+        "subtitle": "Your Words",
+        "r1_text": "Cozy and well organized central bar!Qualified and attentive staff, and a always smiling owner who makes’ every customer feel welcome. A place to return to with pleasure",
+        "r2_text": "Very nice place. We had an aperitif with quality products and so abundant that we couldn't finish everything. But the highlight is the owners and all the staff.. always smiling and available to customers. I felt like I'd known them forever. We spent the white night in joy!Highly recommended!",
+        "r3_text": "Very cute place! I went in for an aperitif, delicious cocktails, accompanied by both appetizers and cutting boards with first-rate foods. Plus, I tried lunch too and was thrilled! Both the owner and the staff are very kind and friendly. I highly recommend it!!"
+    },
+    "footer": {
+        "address": "Via Principe di Napoli, 7, Bracciano (RM)",
+        "find_us": "Find Us",
+        "hours_title": "Hours",
+        "hours_days": "Mon - Sat: 06:30 - 23:30",
+        "hours_time": "Sun: 07:00 - 23:30",
+        "rights": "© 2026 VITA. All rights reserved.",
+        "designed": "Designed by Alessandro Coretti"
+    }
+}

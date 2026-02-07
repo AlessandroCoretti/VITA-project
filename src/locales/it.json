@@ -1,0 +1,64 @@
+{
+    "nav": {
+        "home": "Home",
+        "menu": "Menu",
+        "events": "Eventi",
+        "contact": "Contatti",
+        "book": "Prenota"
+    },
+    "hero": {
+        "title": "VITA",
+        "subtitle": "Bere, Mangiare, Condividere.",
+        "cta": "Scopri di più"
+    },
+    "intro": {
+        "title": "Uno Spazio per la Vita",
+        "p1": "VITA non è solo un luogo, è un momento. Dalla calma del mattino con il profumo del caffè artigianale, all'energia della sera con calici di vino selezionati.",
+        "p2": "Ogni dettaglio, dal legno degli arredi alla cura del servizio, è pensato per farti sentire a casa, ma con un tocco di eleganza in più."
+    },
+    "products": {
+        "title": "La Nostra Selezione",
+        "subtitle": "Porta a casa un pezzo di VITA",
+        "p1_name": "Piccola Pasticceria",
+        "p1_cat": "Dolci",
+        "p2_name": "Rosso Riserva",
+        "p2_cat": "Cantina"
+    },
+    "gallery": {
+        "title": "Atmosfera",
+        "end": "Trova il tuo posto."
+    },
+    "social": {
+        "title": "Segui il Ritmo",
+        "handle": "@VITALocale",
+        "bio": "VITA - Mangiare, Bere, Condividere. \n📍 Bracciano, Via Principe di Napoli, 7\n🍷 Wine | ☕ Coffee | 🌿 Vibe",
+        "followers": "4.2k",
+        "following": "85",
+        "posts": "124"
+    },
+    "contact": {
+        "title": "Pronto ad Assaggiare?",
+        "desc": "Lasciati avvolgere dall'atmosfera. Vieni a sentirti a casa.",
+        "cta": "Prenota il tuo Tavolo",
+        "call": "O chiamaci al +39 06 6922 7268",
+        "location": "Posizione",
+        "phone": "Telefono",
+        "email": "Email"
+    },
+    "reviews": {
+        "title": "Dicono di Noi",
+        "subtitle": "Le Vostre Parole",
+        "r1_text": "Bar centrale accogliente e ben organizzato!Personale qualificato e attento, e una proprietaria sempre sorridente che fa’ sentire ogni cliente il benvenuto.Un posto in cui tornare con piacere",
+        "r2_text": "Location molto carina.Abbiamo fatto un’apericena con prodotti di qualità e talmente abbondante da non essere riusciti a finire tutto. Ma il pezzo forte sono i proprietari e tutto il personale.. sempre sorridenti e disponibili verso i clienti. Mi sembrava di conoscerli da sempre.Abbiamo passato la notte bianca all’insegna dell’allegria!Consigliatissimo!",
+        "r3_text": "Posto carinissimo! Sono entrata per un aperitivo, cocktail buonissimi, accompagnati sia da stuzzichini che da taglieri con alimenti di prima scelta. Inoltre, ho provato anche il pranzo e sono rimasta entusiasta! Sia il titolare che il personale sono molto gentili e simpatici. Lo consiglio vivamente!!"
+    },
+    "footer": {
+        "address": "Via Principe di Napoli, 7, Bracciano (RM)",
+        "find_us": "Dove Siamo",
+        "hours_title": "Orari",
+        "hours_days": "Lun - Sab: 06:30 - 23:30",
+        "hours_time": "Dom: 07:00 - 23:30",
+        "rights": "© 2026 VITA. Tutti i diritti riservati.",
+        "designed": "Designed by Alessandro Coretti"
+    }
+}

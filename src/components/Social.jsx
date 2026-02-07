@@ -126,7 +126,7 @@ export default function Social() {
                             "https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2"
                         ].map((src, n) => (
                             <div key={n} className="aspect-square bg-gray-100 overflow-hidden relative group">
-                                <img src={`${src}?q=80&w=300&auto=format&fit=crop`} loading="lazy" className="w-full h-full object-cover" />
+                                <img src={`${src}?q=80&w=300&auto=format&fit=crop`} alt={`Instagram post ${n + 1}`} loading="lazy" className="w-full h-full object-cover" />
                             </div>
                         ))}
                     </div>
@@ -139,7 +139,7 @@ export default function Social() {
                     <div className="w-6 h-6 border-2 border-gray-300 rounded-lg" /> {/* Plus */}
                     <div className="w-6 h-6 border-2 border-gray-300 rounded-full" /> {/* Reels */}
                     <div className="w-6 h-6 rounded-full overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=100" loading="lazy" className="w-full h-full object-cover" />
+                        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=100" alt="User profile" loading="lazy" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>

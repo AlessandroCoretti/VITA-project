@@ -65,7 +65,7 @@ export default function Gallery() {
                         key={i}
                         className={`relative shrink-0 overflow-hidden ${i % 3 === 0 ? 'w-[80vw] md:w-[35vw] h-[55vh]' : i % 3 === 1 ? 'w-[70vw] md:w-[25vw] h-[75vh]' : 'w-[75vw] md:w-[30vw] h-[40vh]'} ${item.position} grayscale hover:grayscale-0 transition-all duration-700`}
                     >
-                        <img src={item.src} alt={`Gallery ${i}`} loading="lazy" className="h-full w-full object-cover transform hover:scale-110 transition-transform duration-1000" />
+                        <img src={item.src} alt={`VITA Restaurant Atmosphere - Image ${i + 1}`} loading="lazy" className="h-full w-full object-cover transform hover:scale-110 transition-transform duration-1000" />
                     </div>
                 ))}
 

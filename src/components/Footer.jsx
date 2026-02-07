@@ -30,7 +30,8 @@ const Footer = () => {
 
                 <div className="footer-item">
                     <div
-                        aria-label="VITA"
+                        role="img"
+                        aria-label="VITA Logo"
                         className="h-24 w-40 bg-primary hover:opacity-80 transition-all duration-500"
                         style={{
                             maskImage: 'url("/vita-logo.svg")',

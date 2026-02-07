@@ -49,7 +49,7 @@ export default function Hero() {
           <img
             ref={textRef}
             src="/vita-logo.svg"
-            alt="VITA"
+            alt="VITA Restaurant Logo"
             className="h-[30vh] w-auto brightness-0 invert opacity-0 translate-y-10"
           />
         </div>

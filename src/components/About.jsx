@@ -68,7 +68,7 @@ export default function About() {
       <div className="about-image-container w-full md:w-1/2 h-[60vh] md:h-[80vh] overflow-hidden relative">
         <img
           src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop"
-          alt="Interior Ambience"
+          alt="Elegant restaurant interior with warm lighting"
           loading="lazy"
           className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
         />

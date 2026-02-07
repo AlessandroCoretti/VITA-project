@@ -121,13 +121,14 @@ const Navbar = () => {
 
                 <div className="flex items-center gap-8">
                     {/* Theme Switcher */}
-                    <button onClick={toggleTheme} className={`hover:text-accent transition-colors ${isOpen ? 'text-white' : ''}`}>
+                    <button onClick={toggleTheme} aria-label={isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"} className={`hover:text-accent transition-colors ${isOpen ? 'text-white' : ''}`}>
                         {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
                     </button>
 
                     {/* Language Switcher - Always Visible */}
                     <button
                         onClick={changeLanguage}
+                        aria-label={`Current language: ${i18n.language.toUpperCase()}. Click to switch.`}
                         className={`text-xs font-bold uppercase tracking-widest hover:text-accent transition-all duration-500 opacity-100 ${isOpen ? 'text-white' : ''}`}
                     >
                         {i18n.language}
@@ -136,6 +137,7 @@ const Navbar = () => {
                     {/* Menu Toggle (Desktop & Mobile) */}
                     <button
                         onClick={() => setIsOpen(!isOpen)}
+                        aria-label={isOpen ? "Close Menu" : "Open Menu"}
                         className={`flex items-center gap-4 group hover:opacity-80 transition-opacity ${isOpen ? 'text-white' : ''}`}
                     >
                         <span className={`hidden md:block text-xs font-medium tracking-[0.2em] uppercase transition-all duration-500 ${scrolled && !isOpen ? 'opacity-0' : 'opacity-100'}`}>
